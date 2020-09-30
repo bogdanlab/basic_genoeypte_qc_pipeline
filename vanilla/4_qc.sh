@@ -18,10 +18,6 @@ fi
 source /u/local/Modules/default/init/modules.sh
 module load plink
 module load python/anaconda3
-module load java
-
-# java libraries 
-javacp=helper/java_lib
 
 # text file with path to new plink files (.map/.ped)
 new_files=$(cat $CONFIG | grep 'new_files:' | cut -d':' -f2 | sed 's/^ *//g')

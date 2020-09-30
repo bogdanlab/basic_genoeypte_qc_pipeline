@@ -1,5 +1,3 @@
-java: /usr/bin/java
-javacp: /home2/ruthjohnson/atlas_qc/helper/java_lib
 new_files: sample_data/new_bed_files.txt
 outdir: results/
 SNP_missing_thresh: 0.05

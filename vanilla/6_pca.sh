@@ -34,12 +34,6 @@ new_prefix=$(cat $CONFIG | grep 'new_prefix:' | cut -d':' -f2 | sed 's/^ *//g')
 # long-range ld file
 long_ld_file=$(cat $CONFIG | grep 'long_ld_file'  | cut -d':' -f2 | sed 's/^ *//g')
 
-# java bin
-java=$(cat $CONFIG | grep 'java:' | cut -d':' -f2 | sed 's/^ *//g')
-
-# java libraries
-javacp=$(cat $CONFIG | grep 'javacp:' | cut -d':' -f2 | sed 's/^ *//g')
-
 qcdir=$outdir/6_pca
 prevdir=$outdir/5_ibd
 
