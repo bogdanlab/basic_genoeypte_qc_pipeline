@@ -1,0 +1,50 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --allow-no-sex
+  --bfile results//6_pca/sample.firstld.pruned
+  --indep-pairwise 100 5 0.1
+  --out results//6_pca/sample.secondld
+
+Hostname: login4
+Working directory: /u/project/pasaniuc/pasaniucdata/ruthjohn/basic_genoeypte_qc_pipeline
+Start time: Wed Sep 30 13:48:44 2020
+
+Random number seed: 1601498924
+48399 MB RAM detected; reserving 24199 MB for main workspace.
+Allocated 3229 MB successfully, after larger attempt(s) failed.
+8737 variants loaded from .bim file.
+84 people (84 males, 0 females) loaded from .fam.
+84 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 84 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.994655.
+8737 variants and 84 people pass filters and QC.
+Among remaining phenotypes, 43 are cases and 41 are controls.
+Pruned 189 variants from chromosome 1, leaving 415.
+Pruned 204 variants from chromosome 2, leaving 465.
+Pruned 185 variants from chromosome 3, leaving 361.
+Pruned 115 variants from chromosome 4, leaving 294.
+Pruned 168 variants from chromosome 5, leaving 357.
+Pruned 192 variants from chromosome 6, leaving 338.
+Pruned 344 variants from chromosome 7, leaving 472.
+Pruned 185 variants from chromosome 8, leaving 398.
+Pruned 141 variants from chromosome 9, leaving 270.
+Pruned 113 variants from chromosome 10, leaving 252.
+Pruned 147 variants from chromosome 11, leaving 269.
+Pruned 136 variants from chromosome 12, leaving 246.
+Pruned 118 variants from chromosome 13, leaving 226.
+Pruned 82 variants from chromosome 14, leaving 190.
+Pruned 76 variants from chromosome 15, leaving 180.
+Pruned 84 variants from chromosome 16, leaving 217.
+Pruned 79 variants from chromosome 17, leaving 186.
+Pruned 99 variants from chromosome 18, leaving 237.
+Pruned 46 variants from chromosome 19, leaving 161.
+Pruned 44 variants from chromosome 20, leaving 109.
+Pruned 38 variants from chromosome 21, leaving 121.
+Pruned 58 variants from chromosome 22, leaving 130.
+Pruning complete.  2843 of 8737 variants removed.
+Marker lists written to results//6_pca/sample.secondld.prune.in and
+results//6_pca/sample.secondld.prune.out .
+
+End time: Wed Sep 30 13:48:44 2020

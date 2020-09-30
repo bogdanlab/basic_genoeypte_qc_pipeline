@@ -1,0 +1,27 @@
+QC Name: sample
+Date: 30/09/2020 13:48:57
+Number of batches: 2
+List of batches: sample_data/new_files.txt 
+Number of original inds: 89
+Number of original SNPs: 83534
+Number of contaminated inds: 5
+List of contaminated ids: sample_data/remove_samples.txt
+Number of inds after removing contaminated inds: 84
+Number of SNPs after removing contaminated inds: 83534
+Number of inds after removing unmapped SNPs: 84
+Number of SNPs after removing unmapped SNPs: 83534
+Number of inds after removing high missing rate inds: 84
+Number of SNPs after remvoing high missing rate SNPs: 81528
+Number of monomorphic SNPs (not removed): 14985
+Number of SNPs after HWE SNP filter (not removed): 1
+Number of strand flipped SNPs: 0
+List of strand flipped SNPs: results//4_qc/sample.qc4f.flip_count
+Related individuals file not produced...check for possible errors from KING if this is not expected
+Number of outliers from PCA: 0
+Prop variance explained: results//6_pca/sample.pcs
+Proj PCA file: results//6_pca/sample.pcs
+Eigenvector file: results//6_pca/sample.vec
+Eigenvalue file: results//6_pca/sample.val
+PCA plot figures: results//6_pca
+Sexcheck file: no sexcheck file exists...check if sex chromosomes are present in data
+Final qc plink files (fam/bed/bim): results//5_ibd/sample.qc5

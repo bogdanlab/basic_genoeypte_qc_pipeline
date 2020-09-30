@@ -1,0 +1,13 @@
+java: /usr/bin/java
+javacp: /home2/ruthjohnson/atlas_qc/helper/java_lib
+new_files: sample_data/new_files.txt 
+outdir: results/
+SNP_missing_thresh: 0.05
+ind_missing_thresh: 0.05
+new_prefix: sample
+contaminated_ids: sample_data/remove_samples.txt
+king: helper/king/king
+mono_snp_thesh: 0.000000001
+hwe_thresh: 0.000000000001
+flashpca: helper/flashpca_x86-64 
+long_ld_file: helper/exclusion_regions_hg19.txt

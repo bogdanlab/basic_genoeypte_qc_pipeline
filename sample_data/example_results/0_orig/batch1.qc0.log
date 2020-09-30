@@ -1,0 +1,31 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --file sample_data/batch1
+  --make-bed
+  --out results//0_orig/batch1.qc0
+
+Hostname: login4
+Working directory: /u/project/pasaniuc/pasaniucdata/ruthjohn/basic_genoeypte_qc_pipeline
+Start time: Wed Sep 30 13:44:01 2020
+
+Random number seed: 1601498641
+48399 MB RAM detected; reserving 24199 MB for main workspace.
+Allocated 3229 MB successfully, after larger attempt(s) failed.
+Scanning .ped file... done.
+Performing single-pass .bed write (83534 variants, 50 people).
+--file: results//0_orig/batch1.qc0-temporary.bed +
+results//0_orig/batch1.qc0-temporary.bim +
+results//0_orig/batch1.qc0-temporary.fam written.
+83534 variants loaded from .bim file.
+50 people (50 males, 0 females) loaded from .fam.
+50 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 50 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.994186.
+83534 variants and 50 people pass filters and QC.
+Among remaining phenotypes, 14 are cases and 36 are controls.
+--make-bed to results//0_orig/batch1.qc0.bed + results//0_orig/batch1.qc0.bim +
+results//0_orig/batch1.qc0.fam ... done.
+
+End time: Wed Sep 30 13:44:02 2020
