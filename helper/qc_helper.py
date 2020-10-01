@@ -4,6 +4,7 @@ import numpy as np
 import os
 from datetime import datetime
 import matplotlib.pyplot as plt
+plt.switch_backend('agg')
 
 def pretty_print(s, f):
     f.write(s)
