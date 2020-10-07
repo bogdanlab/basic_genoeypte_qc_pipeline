@@ -4,7 +4,9 @@
 More detailed notes on each step is here: https://docs.google.com/document/d/1qBDt8qWsCKv4bsZtN-4U5YsriftCxnpnKG55XM9mRWI/edit?usp=sharing# basic_genoeypte_qc_pipeline
 
 # Setup
+
 python3 (I use anaconda)
+
 `fire` library (`pip install fire --user`)
 
 # Running the pipeline
